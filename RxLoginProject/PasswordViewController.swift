@@ -22,6 +22,7 @@ class PasswordViewController: UIViewController {
         let tf = UITextField()
         tf.placeholder = " 비밀번호를 입력해주세요"
         tf.backgroundColor = .darkGray
+        tf.isSecureTextEntry = true
         tf.clipsToBounds = true
         tf.layer.cornerRadius = 5
         return tf
